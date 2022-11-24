@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Rajdhani:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+header{
+    padding: 60px;
+    background-color: #0a161e;
+    box-shadow: 0px 0px 20px 3px #0a161e;
+}
+
+header > h1{
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 7rem;
+}
+
+/*MAIN*/
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+main > section{
+    display: flex;
+    gap: 10px;
+}
+
+i{
+    font-size: 10rem;
+}
+
+.conte-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.conte-textos > h2{
+    font-weight: bold;
+}
+
+.conte-i{
+    display: flex;
+    align-items: center;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #0a161e;
+    padding: 8px;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/*CLASES GENERICAS*/
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-gradient-border{
+    background: rgb(58,180,59);
+    background: linear-gradient(90deg, rgba(58,180,59,1) 0%, rgba(29,171,253,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0a161e;
+    color: rgba(29,171,253,1);
+    -webkit-text-stroke: 5px transparent;
+    font-family: 'Monoton', cursive;
+}
+
+.text-gradient-fill{
+    background: rgb(58,180,59);
+    background: linear-gradient(90deg, rgba(58,180,59,1) 0%, rgba(29,171,253,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 0, 0);
+}
